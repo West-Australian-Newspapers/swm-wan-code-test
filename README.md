@@ -1,21 +1,36 @@
-# Coding Challenge
+# SWM Coding Challenge
 
-Thank you for taking the time to showcase your technical expertise. 
+This project is a React application that includes a lazy-loading image component and a SWM news articles grid. The application demonstrates how to use React, local storage caching, and the `IntersectionObserver` API to build efficient and responsive web components.
 
-This challenge shouldn't take you more than couple of hours and you will have up to 7 days to complete it.
+## Table of Contents
 
-We suggest you use your normal development practices rather than focusing on complexity, focus on the skill sets that you want to showcase.
+- [Introduction](#introduction)
+- [Features](#features)
+- [Installation](#installation)
+- [Start](#Start) 
+ 
+## Introduction
 
-When writing your code, please be mindful of the following:
+This React project includes a main application component that displays a grid of news articles and a `LazyLoadImage` component that lazy loads images as they enter the viewport. The `LazyLoadImage` component also supports local storage caching for improved performance.
 
- - Your code should be understandable and maintainable by other developers.
- - Your code should be robust and should handle error situations.
- - Your code should be bug free, compile and work.
+## Features
 
-# Instructions
+- Lazy loading images using `IntersectionObserver`.
+- Local storage caching for images.
+- Dynamic rendering of news articles from JSON data.
+- Responsive design with CSS grid layout.
 
-Our team focuses on React; however, you are welcome to use your preferred JavaScript framework and bootstrapping tool like Create React App. Please choose the setup you are most familiar with to show off your skills. 
+## Installation
 
-Please note that for CSS you are welcome to use CSS-in-JS libraries, or CSS pre-processors/post-processors however using frameworks like Bootstrap is not permitted.
+To install and set up the project, follow these steps:
 
-Using the [news.json](https://github.com/West-Australian-Newspapers/swm-wan-code-test/blob/main/news.json) build the following page ![Home page](https://github.com/West-Australian-Newspapers/swm-wan-code-test/blob/main/homepage.png) 
+1. Clone the repository:
+
+   ```sh
+   git clone https://github.com/govindharaju1342/swm-wan-code-test.git
+   cd swm-wan-code-test
+   npm install
+
+## Start
+
+- npm install 
